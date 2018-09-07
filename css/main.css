@@ -1,0 +1,179 @@
+/*** BASE STYLES ***/
+body {
+    font-family:'Source Code Pro', monospace;
+    color: #828282;
+    background-color: #edefee;
+    height: 100%;
+}
+
+
+#portfolio h2, #about h2, #contact h2{
+    text-align: center;
+    padding: 20px;
+    color: #f77f00;
+    text-transform: lowercase;
+}
+
+/*** GRID ***/
+.full-width {
+    width: 1200px;
+    margin: 0 100px auto 50px;
+  
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*** HEADER ***/
+.home {
+    width: 1200px;
+    height: 650px;
+    background-image: url('../img/tao-yuan-761611-unsplash.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 16px;
+    padding: 45px 45px 45px 0px;
+    color: #5f8a8b;
+}
+
+nav{
+    float:right;
+    padding: 45px 0px 45px 45px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #5f8a8b;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+header h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+header h2 span {
+    color: #f77f00;
+}
+
+/***PORTFOLIO***/
+
+
+#portfolio img {
+    border: solid lightgrey 1px;
+}
+
+#jubilee {
+    display: inline-block;
+}
+
+
+.half-width span {
+    font-weight: lighter;
+}
+
+#jubilee h3 {
+    margin-top: 35px;
+}
+
+#rogue {
+    display: inline-block;
+}
+
+#rogue h3 {
+    margin-top: 60px;
+}
+
+#holstee {
+    display: inline-block;
+}
+
+#holstee h3{
+    margin-top: 60px;
+}
+
+/***ABOUT***/
+
+#about {
+    width: 1350px;
+    height: 550px;
+    background-image: url('../img/about-me.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#about h3, #about p {
+    color: darkslategray;
+}
+
+/***CONTACT***/
+
+
+#contact h2{
+    padding-left: 45px;
+}
+
+.shift-right {
+    padding-left: 40px;
+}
+
+#contact ul li {
+   list-style-type: none;
+   display: inline-block;
+}
+
+#contact{
+    text-align: center;
+}
+
+
+
+#email{
+    text-decoration: none;
+    color: #828282;
+}
+
+footer{
+    padding: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
